@@ -136,7 +136,7 @@ export default {
                 url: this.url,
             });
 
-            //this.$router.go();
+            //this.$router.go(0);
         },
         updateProduct(product) {
             api.updateProduct(product);
